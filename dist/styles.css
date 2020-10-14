@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #181f2a;
+  font-family: "Open Sans";
+}
+
+header {
+  margin: 1em;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img {
+  width: 20vw;
+}
+header .menu {
+  color: white;
+  width: 60vw;
+}
+header .menu ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .menu ul li {
+  list-style: none;
+}
+
+.head {
+  width: 100vw;
+}
+.head .bg {
+  height: 55vh;
+  position: relative;
+}
+.head #bg-img {
+  width: 98%;
+  z-index: 2;
+}
+.head #curve-bg {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+.head .head-body {
+  background: #181f2a;
+  height: 40vh;
+  position: relative;
+  margin-top: -1em;
+}
+.head .head-body .container-head-body {
+  text-align: center;
+  position: absolute;
+  top: -10vh;
+  margin: 0 2em;
+  color: white;
+}
+.head .head-body .container-head-body h1 {
+  margin-top: -0.5em;
+  padding-top: 1em;
+}
+.head .head-body .container-head-body button {
+  font-weight: bold;
+  color: white;
+  font-size: 1em;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  width: 70vw;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 2em;
+}
+
+.features {
+  padding: 4em 2em;
+  text-align: center;
+  color: white;
+  background: #181f2a;
+}
+.features .item {
+  margin-bottom: 10vh;
+}
+.features .item h2 {
+  margin-bottom: 0;
+}
+.features .item p {
+  margin-top: 1vh;
+}
+
+.productive {
+  padding: 1.5em;
+  background: #181f2a;
+  color: white;
+}
+.productive .container-img img {
+  width: 100%;
+}
+.productive a {
+  color: #65e2d9;
+}
+
+.comments {
+  position: relative;
+  margin: 15vh auto;
+  margin-bottom: 20vh;
+  padding: 1em 2em;
+  background: #181f2a;
+}
+.comments .quotes {
+  position: absolute;
+  width: 10vw;
+  top: -1em;
+  left: 1;
+}
+.comments .box {
+  background: #1c2431;
+  color: white;
+  padding: 1.3em;
+  margin-bottom: 1em;
+}
+.comments .box .comment p {
+  font-size: 0.8em;
+}
+.comments .box .profile {
+  display: flex;
+  align-items: center;
+}
+.comments .box .profile img {
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+}
+.comments .box .profile .dates {
+  margin-left: 0.5em;
+}
+.comments .box .profile .dates h3, .comments .box .profile .dates p {
+  margin: 0;
+  padding: 0;
+}
+.comments .box .profile .dates h3 {
+  font-size: 0.8em;
+}
+.comments .box .profile .dates p {
+  font-size: 0.6em;
+}
+
+.access {
+  margin: 2em;
+  background: #1c2431;
+  padding: 3em 2em;
+  text-align: center;
+  color: white;
+  position: relative;
+  height: 40vh;
+  border-radius: 1em;
+}
+.access .tittle {
+  position: absolute;
+  padding: 1em;
+  top: 0;
+  left: 0;
+}
+.access .tittle input {
+  border-radius: 2em;
+  padding: 1em;
+  border: none;
+  width: 90%;
+  outline: none;
+}
+.access .tittle button {
+  margin-top: 1em;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 2em;
+  background-image: linear-gradient(to left bottom, #09edb1, #00d1db, #00aeff, #0083ff, #1241eb);
+  padding: 1em;
+  width: 100%;
+}
+
+footer {
+  padding: 12em 2em;
+  padding-bottom: 0;
+  margin-top: -30vh;
+  background: #0b1523;
+}
+footer .item {
+  display: grid;
+  align-items: baseline;
+  color: white;
+  gap: 1em;
+  grid-template-columns: 20px 1fr;
+}
+footer .links {
+  height: 50vh;
+  display: grid;
+  gap: 1em;
+  align-content: center;
+}
+footer .links ul {
+  padding-left: 0;
+}
+footer .links ul li {
+  list-style: none;
+  color: white;
+}
+footer .redes {
+  text-align: center;
+}
+footer .redes img {
+  margin-right: 0.5em;
+}
